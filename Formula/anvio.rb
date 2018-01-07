@@ -7,6 +7,7 @@ class Anvio < Formula
   head "https://github.com/merenlab/anvio.git"
 
   bottle do
+    root_url "http://repository.ozcan.me/"
     sha256 "eb12075a38b11f47b425b9ea537b826831196f846fb13865bf2c788e0587de8a" => :high_sierra
   end
 
